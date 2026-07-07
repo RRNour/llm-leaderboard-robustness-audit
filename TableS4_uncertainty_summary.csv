@@ -1,0 +1,21 @@
+model,rank_ci,overlap_flag,top_k_probability
+gpt-4,"[1, 1]",False,top1=1.000; top3=1.000; top5=1.000; top10=1.000
+claude-v1,"[2, 3]",True,top1=0.000; top3=1.000; top5=1.000; top10=1.000
+claude-instant-v1,"[2, 3]",True,top1=0.000; top3=1.000; top5=1.000; top10=1.000
+gpt-3.5-turbo,"[4, 4]",False,top1=0.000; top3=0.000; top5=1.000; top10=1.000
+guanaco-33b,"[5, 6]",True,top1=0.000; top3=0.000; top5=0.951; top10=1.000
+vicuna-13b,"[5, 8]",True,top1=0.000; top3=0.000; top5=0.028; top10=1.000
+wizardlm-13b,"[6, 8]",True,top1=0.000; top3=0.000; top5=0.020; top10=1.000
+palm-2,"[6, 8]",True,top1=0.000; top3=0.000; top5=0.001; top10=1.000
+vicuna-7b,"[9, 9]",False,top1=0.000; top3=0.000; top5=0.000; top10=1.000
+koala-13b,"[10, 10]",False,top1=0.000; top3=0.000; top5=0.000; top10=1.000
+gpt4all-13b-snoozy,"[11, 13]",True,top1=0.000; top3=0.000; top5=0.000; top10=0.000
+mpt-7b-chat,"[11, 13]",True,top1=0.000; top3=0.000; top5=0.000; top10=0.000
+rwkv-4-raven-14b,"[11, 13]",True,top1=0.000; top3=0.000; top5=0.000; top10=0.000
+alpaca-13b,"[14, 15]",True,top1=0.000; top3=0.000; top5=0.000; top10=0.000
+oasst-pythia-12b,"[14, 15]",True,top1=0.000; top3=0.000; top5=0.000; top10=0.000
+fastchat-t5-3b,"[16, 17]",True,top1=0.000; top3=0.000; top5=0.000; top10=0.000
+chatglm-6b,"[16, 17]",True,top1=0.000; top3=0.000; top5=0.000; top10=0.000
+stablelm-tuned-alpha-7b,"[18, 19]",True,top1=0.000; top3=0.000; top5=0.000; top10=0.000
+dolly-v2-12b,"[18, 19]",True,top1=0.000; top3=0.000; top5=0.000; top10=0.000
+llama-13b,"[20, 20]",False,top1=0.000; top3=0.000; top5=0.000; top10=0.000
