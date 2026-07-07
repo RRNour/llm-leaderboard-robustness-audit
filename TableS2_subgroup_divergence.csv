@@ -1,0 +1,17 @@
+subgroup,mean_rank_shift,correlation_with_global,permutation_p_value,interpretation_label
+subgroup_prompt_category=safety,5.4,0.3037593984962406,0.0005027652086475,FDR-significant divergence
+subgroup_toxicity=toxic,5.4,0.3037593984962406,0.0005037783375314,FDR-significant divergence
+subgroup_language=non_english,2.2,0.8285714285714286,0.0004997501249375,FDR-significant divergence
+subgroup_prompt_category=code,1.4,0.9458646616541352,0.008495752123938,FDR-significant divergence
+subgroup_prompt_category=math,1.4,0.9112781954887218,0.0599700149925037,no detected divergence
+subgroup_prompt_category=knowledge,0.9,0.9819548872180452,0.0619690154922538,no detected divergence
+subgroup_length=long,0.8,0.9729323308270676,0.0034982508745627,FDR-significant divergence
+subgroup_turns=multi_turn,0.5,0.9864661654135338,0.6666666666666666,no detected divergence
+subgroup_prompt_category=writing,0.4,0.9924812030075189,0.9245377311344328,no detected divergence
+subgroup_turns=single_turn,0.3,0.9954887218045112,0.0179910044977511,FDR-significant divergence
+subgroup_language=english,0.3,0.9939849624060152,0.024487756121939,raw-significant only
+subgroup_length=short,0.3,0.9924812030075189,0.3593203398300849,no detected divergence
+subgroup_toxicity=non_toxic,0.1,0.9984962406015038,0.1544227886056971,no detected divergence
+subgroup_prompt_category=other,0.1,0.9984962406015038,0.9030484757621188,no detected divergence
+subgroup_length=medium,0.1,0.9984962406015038,0.974512743628186,no detected divergence
+subgroup_flag_binary=not_flagged,0.0,1.0,1.0,no detected divergence
