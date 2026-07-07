@@ -1,0 +1,8 @@
+metric,value,interpretation
+early_rows_total,16500.0,Deterministic early temporal split size
+late_rows_total,16500.0,Deterministic late temporal split size
+global_kendalls_tau,0.923809523809524,Shared-model temporal rank agreement
+global_spearmans_rho,0.9785714285714284,Shared-model temporal rank agreement
+global_mean_absolute_rank_shift,3.733333333333333,Average absolute shift among shared models
+global_top5_overlap_share,0.6,Top-5 overlap between early and late splits
+late_only_new_models,5.0,Models present only in the late split
