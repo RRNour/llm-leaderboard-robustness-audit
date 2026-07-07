@@ -1,0 +1,21 @@
+model,stability_class,notes
+gpt-4,Highly stable,RSS=0.001; uncertainty_width=0; max_shift=2; IPW_sensitivity=low
+claude-v1,Fragile,RSS=0.013; uncertainty_width=1; max_shift=17; IPW_sensitivity=medium
+claude-instant-v1,Fragile,RSS=0.012; uncertainty_width=1; max_shift=12; IPW_sensitivity=medium
+gpt-3.5-turbo,Fragile,RSS=0.006; uncertainty_width=0; max_shift=9; IPW_sensitivity=medium
+guanaco-33b,Context-sensitive,RSS=0.020; uncertainty_width=1; max_shift=5; IPW_sensitivity=medium
+vicuna-13b,Context-sensitive,RSS=0.019; uncertainty_width=3; max_shift=2; IPW_sensitivity=low
+wizardlm-13b,Context-sensitive,RSS=0.030; uncertainty_width=2; max_shift=2; IPW_sensitivity=low
+palm-2,Fragile,RSS=0.050; uncertainty_width=2; max_shift=12; IPW_sensitivity=medium
+vicuna-7b,Highly stable,RSS=0.005; uncertainty_width=0; max_shift=3; IPW_sensitivity=low
+koala-13b,Context-sensitive,RSS=0.005; uncertainty_width=0; max_shift=6; IPW_sensitivity=medium
+gpt4all-13b-snoozy,Fragile,RSS=0.026; uncertainty_width=2; max_shift=9; IPW_sensitivity=medium
+mpt-7b-chat,Stable but uncertain,RSS=0.014; uncertainty_width=2; max_shift=3; IPW_sensitivity=low
+rwkv-4-raven-14b,Context-sensitive,RSS=0.024; uncertainty_width=2; max_shift=5; IPW_sensitivity=medium
+alpaca-13b,Fragile,RSS=0.049; uncertainty_width=1; max_shift=8; IPW_sensitivity=high
+oasst-pythia-12b,Fragile,RSS=0.036; uncertainty_width=1; max_shift=5; IPW_sensitivity=medium
+fastchat-t5-3b,Fragile,RSS=0.004; uncertainty_width=1; max_shift=3; IPW_sensitivity=high
+chatglm-6b,Fragile,RSS=0.020; uncertainty_width=1; max_shift=8; IPW_sensitivity=high
+stablelm-tuned-alpha-7b,Context-sensitive,RSS=0.007; uncertainty_width=1; max_shift=4; IPW_sensitivity=medium
+dolly-v2-12b,Context-sensitive,RSS=0.006; uncertainty_width=1; max_shift=4; IPW_sensitivity=medium
+llama-13b,Context-sensitive,RSS=0.009; uncertainty_width=0; max_shift=4; IPW_sensitivity=medium
